@@ -41,6 +41,9 @@
                 <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">Reservar</router-link>
                 </li>
+                <li class="nav-item mx-4">
+                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/formularioencomienda">Encomiendas</router-link>
+                </li>
               
                 <!-- <b-sidebar id="example-collapse" title="Nosotros" shadow>
                   <div class="px-1 py-3 my-4">
