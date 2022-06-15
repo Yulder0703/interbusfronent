@@ -27,13 +27,14 @@
             <b-card header-bg-variant="info" text-variant="white" header="INICIAR SESION" class="text-center">
             <b-card-text>
             <form class="formulario">
+                 <img alt="logo" src="../assets/inicio.png" width="80"  height="80">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label" placeholder="Correo">Correo</label>
                 <b-input-group class="mb-3 icono">
                     <!-- iconono de correo -->
                 <div class="input-group-text" id="btnGroupAddon"><b-icon icon="person-fill"></b-icon ></div>
                 <!-- termina iconono de correo -->
-                    <b-form-input type="text" placeholder="Identificacion"></b-form-input>
+                    <b-form-input type="staticEmail" placeholder="email@example.com"></b-form-input>
                 </b-input-group>
                 <!-- <label for="exampleInputEmail1" class="form-label" placeholder="Identificacion">Identificacion</label>           
                 <input type="email"  class="form-control" id="exampleInputEmail1" placeholder="Identificacion" aria-describedby="emailHelp"> -->
