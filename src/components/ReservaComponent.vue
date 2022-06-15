@@ -4,7 +4,7 @@
       <div class="py-5 text-center">
 
         <p class="lead"></p>
-        <h2 class="mb-3">Reservas</h2>
+        <h2 class="mb-3">RESERVA</h2>
       </div>
 
       <div class="row g-12">
