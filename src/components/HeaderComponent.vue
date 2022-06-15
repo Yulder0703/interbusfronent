@@ -36,7 +36,7 @@
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/iniciar">Iniciar sesion</router-link>
                 </li>
                  <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">Buscar Ruta</router-link>
+                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/buscarRutaView">Buscar Ruta</router-link>
                 </li>
                 <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">Reservar</router-link>

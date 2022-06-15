@@ -42,6 +42,21 @@ const routes = [
     name: 'perfil',
     component: () => import('../views/DashboardUsuario/DashboardView.vue')
   },
+  {
+    path: '/BuscarRutaView',
+    name: 'BuscarRutaView',
+    component: () => import('../views/BuscarRutaView.vue')
+  },
+  {
+    path: '/ReservaView',
+    name: 'ReservaView',
+    component: () => import('../views/DashboardUsuario/Reserva.vue')
+  },
+  {
+    path: '/RutasEncontraView',
+    name: 'RutasEncontraView',
+    component: () => import('../views/DashboardUsuario/RutasEncontraView.vue')
+  },
 
   // dentro de este crear un sub arreglo e importarlo en la parte de arriba 
 
