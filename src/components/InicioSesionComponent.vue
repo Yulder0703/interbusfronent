@@ -21,6 +21,7 @@
         <section class="linea ocultar">
             <hr size="300"  >
         </section>
+        
         <!-- parde de la targeta de iniciar sesion -->
         <section class=" inicio  col-8 col-sm-6 col-lg-4 col-xxl-3">
             <b-card-group deck>
