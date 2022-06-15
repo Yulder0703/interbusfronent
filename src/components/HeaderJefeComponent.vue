@@ -32,8 +32,8 @@
                 <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/inicio">Inicio</router-link>
                 </li>
-                 <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">Planilla de Rodamiento</router-link>
+                <li class="nav-item mx-4">
+                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/rodamiento">Nuevo Rodamiento</router-link>
                 </li>
                 <!-- <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/dashboarddespachador">Reservar</router-link>

@@ -7,6 +7,7 @@ import DashboardJeferodamientoView from '../views/DashboardJeferodamiento/Dashbo
 
 
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -41,6 +42,15 @@ const routes = [
     path: '/perfil',
     name: 'perfil',
     component: () => import('../views/DashboardUsuario/DashboardView.vue')
+  },
+
+  {
+    path: '/rodamiento',
+    name: 'Nuevo Rodamiento',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/DashboardJeferodamiento/Rodamiento.vue')
   },
 
   // dentro de este crear un sub arreglo e importarlo en la parte de arriba 
@@ -99,6 +109,7 @@ const routes = [
     ]
 
   }
+ 
   
 ]
 
