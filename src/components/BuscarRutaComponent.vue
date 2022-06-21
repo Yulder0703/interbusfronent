@@ -1,14 +1,20 @@
 <template>
-    <div class="container">
-      <main>
-        <div class="py-5 text-center">
+  <div class="container">
+    <main>
+      <div class="text-center">
 
         <p class="lead"></p>
-        <h2 class="mb-3">Buscar Rutas</h2>
+        <h2 class="mb-3">Buscar rutas </h2>
       </div>
-        <div class="flexbox">
-      
-              <div class="col-md-4" flexbox>
+      <div div class="flexbox">
+       <div class="row g-3">
+        <div class="col-md-12 col-lg-12">
+         
+          <form class="needs-validation" novalidate>
+            <div class="row g-5">
+             
+              
+              <div class="col-md-6">
                 <label for="country" class="form-label">Origen</label>
                 <select class="form-select" id="country" required>
                   <option value="">Ciudad de origen</option>
@@ -60,7 +66,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <label for="state" class="form-label">Destino </label>
                 <select class="form-select" id="state" required>
                   <option value="">Ciudad de destino</option>
@@ -111,8 +117,8 @@
                   Please provide a valid state.
                 </div>
               </div>
-        </div>
-               <div class="col-12">
+             <div class=" fecha">
+              <div class="col-md-5">
                 <label for="Fecha" class="form-label"
                   >Fecha de reservacion  <span class="text-muted"></span
                 ></label>
@@ -127,21 +133,34 @@
                   max="2030-01-31"
                 />
               </div>
-    <div>
-        <p class="flexbox"></p>
-               <div>
-                <b-button variant="primary" href="#"
-                    to="/RutasEncontraView">reservar </b-button>
-              </div>
-          
+             </div>
+
             </div>
-          
-     </main>
+          </form>
+          </div>
+        </div>
+       </div>
+      
+        
+             <div>
+               <p class="lead"></p>
+                <b-button variant="outline-primary" href="#"
+                    to="/RutasEncontraView">reservar </b-button>
+           </div>
+    </main>
   </div>
 </template>
 <style>
 .flexbox{
   justify-content: space-around ;
+  display:flex
+}
+.fecha{
+  justify-content: space-around ;
+  display:flex
+}
+.text-center{
+  justify-content: center ;
   display:flex
 }
 

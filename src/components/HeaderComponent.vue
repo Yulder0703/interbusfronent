@@ -5,7 +5,7 @@
         <img 
           src="../assets/Interbuslogoweb.png"
           alt=""
-          width="285px"
+          width="290px"
           height="130px"
           class="logo"
         >

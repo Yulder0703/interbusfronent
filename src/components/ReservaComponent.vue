@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <main>
-      <div class="py-5 text-center">
+       <div class="text-center">
 
         <p class="lead"></p>
-        <h2 class="mb-3">RESERVA</h2>
+        <h2 class="mb-3">Reserva </h2>
       </div>
 
       <div class="row g-12">
@@ -224,6 +224,14 @@
     </main>
   </div>
 </template>
+<style >
+.text-center{
+  justify-content: center ;
+  display:flex
+}
+
+
+</style>
 <script>
 export default {
   name: "ReservaComponent",
