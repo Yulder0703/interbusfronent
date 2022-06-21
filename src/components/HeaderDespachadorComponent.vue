@@ -33,7 +33,7 @@
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/inicio">Inicio</router-link>
                 </li>
                  <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">Despachar conductores</router-link>
+                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/despacharConductores">Despachar conductores</router-link>
                 </li>
                 <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/">OPCION NULA</router-link>
