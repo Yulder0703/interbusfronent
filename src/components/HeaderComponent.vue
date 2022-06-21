@@ -1,12 +1,12 @@
 <template>
   <div class="my-1 mx-3 px-1 py-2 bg-white rounded-bottom shadow"> 
     <div class="row d-flex justify-content-evenly align-items-center">
-      <div class="col col-lg-5 col-md-5 sm-5">
+      <div class="col col-lg-4 col-md-4 sm-4">
         <img 
-          src="../assets/logoInterbus.jpeg"
+          src="../assets/Interbuslogoweb.png"
           alt=""
-          width="150px"
-          height="120px"
+          width="285px"
+          height="130px"
           class="logo"
         >
       </div>

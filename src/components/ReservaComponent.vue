@@ -214,11 +214,13 @@
           
         </div>
       </div>
-      <div>
-        <p class="lead"></p>
-              <button class="w-95   btn btn-primary btn-lg" type="submit">
-              <router-link to="/ReservarView">Reserva</router-link></button>
-            </div>
+      
+        
+             <div>
+               <p class="lead"></p>
+                <b-button variant="outline-primary" href="#"
+                    to="/ReservarView">reservar </b-button>
+           </div>
     </main>
   </div>
 </template>
