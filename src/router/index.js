@@ -8,6 +8,11 @@ import DashboardJeferodamientoView from '../views/DashboardJeferodamiento/Dashbo
 
 
 
+
+
+
+
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -36,7 +41,7 @@ const routes = [
     path: '/iniciar',
     name: 'iniciar',
     component: () => import('../views/InicioView.vue')
-  },
+  }, 
 
   {
     path: '/perfil',
@@ -53,6 +58,13 @@ const routes = [
     name: 'ReservaView',
     component: () => import('../views/DashboardUsuario/Reserva.vue')
   },
+
+  {
+    path: '/ReservarView',
+    name: 'ReservarView',
+    component: () => import('../views/ReservarView.vue')
+  }, 
+
   {
     path: '/RutasEncontraView',
     name: 'RutasEncontraView',
@@ -67,6 +79,13 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/DashboardJeferodamiento/Rodamiento.vue')
   },
+
+  // {
+  //   path: '/IniciodesesionRComponent',
+  //   name: 'IniciodesesionRComponent',
+  //   component: () => import('../views/IniciodesesionRView.vue')
+  // },
+  
   {
     path: '/formularioencomienda',
     name: 'FormularioEncoView',
@@ -75,6 +94,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/DashboardUsuario/FormularioEncoView')
   },
+
 
   // dentro de este crear un sub arreglo e importarlo en la parte de arriba 
 

@@ -1,8 +1,11 @@
-<template>
-  <div id="app">
+<template> 
+ <div id="app">
      <router-view/>
+     <router-link to="/ReservarView"></router-link>
+     <!-- <router-link to="/IniciodesesionRView"></router-link> -->
   </div>
 </template>
+
 
 <style>
 #app {

@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <template>
 
 <div class>
@@ -53,8 +67,7 @@
         <div>
         <p class="lead"></p>
               <button class="w-95   btn btn-primary btn-lg" type="submit">
-                Generar
-              </button>
+              <router-link to="/ReservarView">Generar</router-link></button>
             </div>
 </div>
 

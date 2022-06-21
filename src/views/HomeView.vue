@@ -40,4 +40,10 @@ export default {
 .alin {
    padding-top: 10%;
 }
+
+.home{
+  background-size: cover;
+  height: 100vh;
+  background-image: url(/src/assets/popayan.jpg);
+}
 </style>

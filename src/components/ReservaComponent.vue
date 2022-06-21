@@ -217,11 +217,9 @@
       <div>
         <p class="lead"></p>
               <button class="w-95   btn btn-primary btn-lg" type="submit">
-                Reservar
-              </button>
+              <router-link to="/ReservarView">Reserva</router-link></button>
             </div>
     </main>
-     
   </div>
 </template>
 <script>

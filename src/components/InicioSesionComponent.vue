@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="home">
        
     <section class="centro">
        
@@ -144,4 +144,10 @@
         display: none;
       }
     }
+
+    .home{
+  background-size: cover;
+  height: 100%;
+  background-image: url(/src/assets/popayan.jpg);
+}
 </style>

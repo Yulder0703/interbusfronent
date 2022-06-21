@@ -56,4 +56,6 @@ export default {
   justify-content:space-evenly;
 }
 
+
+
 </style>

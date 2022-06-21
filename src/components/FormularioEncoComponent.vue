@@ -1,6 +1,5 @@
 <template>
   <div>
-
    
     <div>
     <section class=" registro container  col-30 col-sm-20 col-lg-8 col-xxl-20 shadow ">
