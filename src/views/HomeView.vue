@@ -33,8 +33,8 @@ export default {
 .foote{
   position:fixed;
   left:0px;
-  bottom:22px;
-  height:30px;
+  bottom:2px;
+  height:10px;
   width:100%;
 }
 .alin {
@@ -43,7 +43,7 @@ export default {
 
 .home{
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
   background-image: url(/src/assets/popayan.jpg);
 }
 </style>
