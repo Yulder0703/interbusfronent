@@ -30,20 +30,15 @@ export default {
     height: 100vh;
 
 }
-.foote{
-  position:fixed;
-  left:0px;
-  bottom:2px;
-  height:10px;
-  width:100%;
-}
+
 .alin {
    padding-top: 10%;
 }
 
 .home{
+  min-height: 70vh;
+  max-height: 70vh;
+  background: url(/src/assets/popayan.jpg) no-repeat  center center fixed;
   background-size: cover;
-  height: 50vh;
-  background-image: url(/src/assets/popayan.jpg);
 }
 </style>

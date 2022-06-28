@@ -136,7 +136,7 @@
     }
 
     .centro{
-        margin-top: 2%;
+        margin-top: 0;
     }
 
      @media screen and (max-width: 600px){
@@ -148,6 +148,7 @@
     .home{
   background-size: cover;
   height: 100%;
+ 
   background-image: url(/src/assets/popayan.jpg);
 }
 </style>

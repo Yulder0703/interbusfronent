@@ -151,6 +151,7 @@
   </div>
 </template>
 <style>
+
 .flexbox{
   justify-content: space-around ;
   display:flex
