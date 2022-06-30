@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import 'boxicons'
 
 // import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import { BootstrapVue, BootstrapVueIcons,IconsPlugin } from 'bootstrap-vue'
@@ -9,6 +12,7 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(IconsPlugin)
+Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
 

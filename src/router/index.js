@@ -72,6 +72,18 @@ const routes = [
   },
 
   {
+    path: '/BusesView',
+    name: 'BusesView',
+    component: () => import('../views/BusesView.vue')
+  },
+
+  {
+    path: '/NuevoBusView',
+    name: 'NuevoBusView',
+    component: () => import('../views/NuevoBusView.vue')
+  },
+
+  {
     path: '/rodamiento',
     name: 'Nuevo Rodamiento',
     // route level code-splitting
