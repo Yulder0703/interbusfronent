@@ -2,7 +2,9 @@
     <div>
        <HeaderComponent/>
        <br><br>
-       <InicioSesionComponent/>
+       <div>
+            <InicioSesionComponent/>
+       </div>
        <br>
        <FooterComponent/>
        

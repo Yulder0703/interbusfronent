@@ -82,17 +82,19 @@
     />
 
     <hr /> -->
-
+    <FooterComponent/>
   </div>
 </template>
 <script>
 import axios from "axios";
 import HeaderComponent from '@/components/HeaderComponent.vue'
+import FooterComponent from "@/components/FooterComponent.vue";
 export default {
   name: "BusesView",
 
   components: {
     HeaderComponent,
+    FooterComponent,
   },
 
   data() {
