@@ -1,6 +1,5 @@
 <template>
     <div>
-       <HeaderComponent/>
        <br><br>
        <ReservarComponent/>
        <br>
@@ -12,14 +11,13 @@
 
 <script>
 
-import HeaderComponent from '@/components/HeaderComponent.vue'
+
 import ReservarComponent from '@/components/ReservarComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 
 export default {
     name:"ReservarView",
     components:{
-     HeaderComponent,
      ReservarComponent,
      FooterComponent,
     }

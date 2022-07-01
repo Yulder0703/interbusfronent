@@ -1,7 +1,6 @@
 <template>
     <div>
-       <HeaderComponent />
-       <br><br>
+      
        <FormularioEncoComponent/>
        <br>
        <FooterComponent/>
@@ -12,7 +11,7 @@
 
 <script>
 
-import HeaderComponent from '@/components/HeaderComponent.vue'
+
 import FormularioEncoComponent from '@/components/FormularioEncoComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 export default {
@@ -20,7 +19,7 @@ export default {
     components:{
         FormularioEncoComponent,
         FooterComponent,
-        HeaderComponent
+        
     }
 }
 </script>

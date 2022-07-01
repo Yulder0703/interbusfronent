@@ -1,44 +1,33 @@
 <template>
-    <div>
-        <HeaderComponent/>
-        <section class="dash">
-            <SidebarComponent class="comp"/>
-            <div class="contenido">Contenido
-                <router-view/>
-            </div>
-
-        </section>
-        <FooterComponent/>
-
-    </div>
+  <v-app id="inspire">
+    <Sidebar  v-model="drawer" />
+    <Topbar @drawerEvent="drawer = !drawer" />
+    <v-main style="background: #f5f5f540">
+      <v-container class="py-1 px-1" fluid>
+        <router-view></router-view>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-
-// import SidebarComponent from "@/components/SidebarComponent.vue"
-import HeaderComponent from "@/components/HeaderComponent.vue"
-import FooterComponent from "@/components/FooterComponent.vue"
+import Sidebar from '@/components/Sidebar.vue';
+import Topbar from '@/components/Topbar.vue';
 
 export default {
-    name: "DashboardView",
-    components:{
-        // SidebarComponent,
-        HeaderComponent,
-        FooterComponent,
-    }
-}
+    name: "DasboarUsarioView",
+    data: () => ({
+        cards: ["Today", "Yesterday"],
+        drawer: null,
+    }),
+    methods: {},
+    components: { Sidebar, Topbar }
+};
 </script>
-
 <style scoped>
-.dash{
-    
-    display: flex;
-}
-
-.contenido{
-    border: 1px solid black;
-}
-.comp{
-    background-color: lightskyblue;
+.inspire{
+  background-size: cover;
+  height: 100vh;
+  background-image: url(/src/assets/popayan.jpg);
 }
 </style>

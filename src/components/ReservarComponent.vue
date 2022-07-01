@@ -1,5 +1,4 @@
 <template>
-    <div>
     <div class="modal modal-tour position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalTour">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-6 shadow">
@@ -45,7 +44,6 @@
           </div>
         </div>
       </div>
-    </div>
 </template>
 
 

@@ -38,15 +38,7 @@
                  <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/buscarRutaView">Buscar Ruta</router-link>
                 </li>
-                <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/ReservaView">Reservar</router-link>
-                </li>
-                <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/formularioencomienda">Encomiendas</router-link>
-                </li>
-                <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/BusesView">Buses</router-link>
-                </li>
+              
                
               </ul>
             </div>

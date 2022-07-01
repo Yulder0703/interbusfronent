@@ -46,17 +46,6 @@ const routes = [
     name: 'BuscarRutaView',
     component: () => import('../views/BuscarRutaView.vue')
   },
-  {
-    path: '/ReservaView',
-    name: 'ReservaView',
-    component: () => import('../views/DashboardUsuario/Reserva.vue')
-  },
-
-  {
-    path: '/ReservarView',
-    name: 'ReservarView',
-    component: () => import('../views/ReservarView.vue')
-  }, 
 
   {
     path: '/RutasEncontraView',
@@ -92,15 +81,6 @@ const routes = [
   //   component: () => import('../views/IniciodesesionRView.vue')
   // },
   
-  {
-    path: '/formularioencomienda',
-    name: 'FormularioEncoView',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/DashboardUsuario/FormularioEncoView')
-  },
-
 
   // dentro de este crear un sub arreglo e importarlo en la parte de arriba 
 
@@ -108,19 +88,21 @@ const routes = [
     path:"/dashboard",
     component: DashboardView,
     children: [
-      // {
-      //   path: '/',
-      //   component: () => import('../views/DashboardUsuario/View.vue')
-      // },
-      // //crear el link y enviarlo en sidebarcomponent
-      // {
-      //   path:"/",
-      //   component: () => import('../views/DashboardUsuario/View.vue')
-      // },
-      // {
-      //   path:"/",
-      //   component: () => import('../views/DashboardUsuario/View.vue')
-      // }
+   
+      {
+        path:"/ReservarView",
+        component: () => import('../views/ReservarView.vue')
+      },
+      
+      {
+        path: '/ReservaView',
+        component: () => import('../views/DashboardUsuario/Reserva.vue')
+
+      },
+      {
+        path: '/formularioencomienda',
+        component: () => import( '../views/DashboardUsuario/FormularioEncoView')
+      }
     ]
 
   },
