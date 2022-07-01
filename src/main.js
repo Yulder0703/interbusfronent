@@ -15,11 +15,12 @@ Vue.use(IconsPlugin)
 Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
-
+import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import vuetify from './plugins/vuetify'
 
 
 
@@ -27,5 +28,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 new Vue({
   router,
+  vuetify,
   render: h => h(App)
 }).$mount('#app')

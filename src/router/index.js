@@ -6,13 +6,6 @@ import DashboardDespachadorView from '../views/DashboardDespachador/DashboardDes
 import DashboardJeferodamientoView from '../views/DashboardJeferodamiento/DashboardJeferodamientoView.vue'
 
 
-
-
-
-
-
-
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -70,6 +63,7 @@ const routes = [
     name: 'RutasEncontraView',
     component: () => import('../views/DashboardUsuario/RutasEncontraView.vue')
   },
+
 
   {
     path: '/BusesView',
@@ -130,9 +124,14 @@ const routes = [
     ]
 
   },
+  {
+    path: '/DashboUsuario',
+    name: 'DasboarUsarioView',
+    component: () => import('../views/DashboardUsuario/DashboardView.vue')
+  },
 
   {
-    path:"/dashboarddespachador",
+    path:"/DashboUsuario",
     component: DashboardDespachadorView,
     children: [
       // {
@@ -179,6 +178,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 
