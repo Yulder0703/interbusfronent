@@ -6,7 +6,7 @@
        </div>
       <b-col md="11">
           <div class="textomision">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dignissimos quaerat esse atque alias odio nesciunt placeat quod laboriosam ipsum autem, hic voluptas voluptatum reprehenderit, neque accusantium excepturi mollitia sequi!
+             Ofrecer un software de calidad donde se supere las expectativas de los clientes. Brindando un soporte adecuado y oportuno que garantice la seguridad y el correcto funcionamiento en cualquier momento.
           </div>
       </b-col>
    
@@ -19,7 +19,7 @@
        </div>
       <b-col md="11">
           <div class="textovision">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dignissimos quaerat esse atque alias odio nesciunt placeat quod laboriosam ipsum autem, hic voluptas voluptatum reprehenderit, neque accusantium excepturi mollitia sequi!
+            Como objetivo trascendental tenemos que el proyecto sea reconocido por siempre ser innovador y poseemos la plena seguridad que se hará parte de un mercado creciente, donde haremos una contribución significativa.
           </div>
       </b-col>
    
