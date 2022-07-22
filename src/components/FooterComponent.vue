@@ -5,7 +5,7 @@
       <div class="footer-content">
         <h3>Interbus</h3>
         <p>
-          Servicio de transporte intermunisipal del cauca. <br />
+          Servicio de transporte intermunicipal del cauca. <br />
           te acercamos a tu destino de manera rapida y segura.
         </p>
         <ul class="socials">
@@ -27,7 +27,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>copyright &copy;2022 <a href="#">interbus</a></p>
+        <p>copyright &copy;2022 <a href="#" class="a">interbus</a></p>
       </div>
     </footer>
   </div>
@@ -54,11 +54,11 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #111;
+  background: rgb(4, 3, 22);
   height: auto;
   width: 100vw;
-
-  padding-top: 40px;
+  
+  padding: 2px;
   color: #fff;
 }
 
@@ -72,17 +72,19 @@ footer {
 
 .footer-content h3 {
   font-size: 2.1rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 3rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
+  max-width: 600px;
+  margin: 15px ;
+  line-height: 20px;
+  font-size: 20px;
   color: #cacdd2;
+  font-family: serif;
 }
 
 .socials {
@@ -118,7 +120,8 @@ footer {
 }
 
 .footer-bottom {
-  background: #000;
+  
+  background: rgb(6, 6, 6);
   width: 100vw;
   padding: 20px;
   padding-bottom: 40px;
@@ -126,29 +129,33 @@ footer {
 }
 
 .footer-bottom p {
-  float: left;
+   text-align: center;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
 
 .footer-bottom p a {
+   text-align: center;
   color: #44bae8;
   font-size: 16px;
   text-decoration: none;
 }
 
 .footer-bottom span {
+   text-align: center;
   text-transform: uppercase;
   opacity: 0.4;
   font-weight: 200;
 }
 
 .footer-menu {
+   text-align: center;
   float: right;
 }
 
 .footer-menu ul {
+   text-align: center;
   display: flex;
 }
 
@@ -166,11 +173,16 @@ footer {
   color: #27bcda;
 }
 
+
 @media (max-width: 500px) {
   .footer-menu ul {
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+.a{
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>

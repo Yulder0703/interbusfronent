@@ -3,16 +3,7 @@
     <div class="row d-flex justify-content-evenly align-items-center">
       <div class="col col-lg-5 col-md-5 sm-5">
         <img 
-          src="../assets/Interbuslogoweb.png"
-          alt=""
-          width="150px"
-          height="120px"
-          class="logo"
-        >
-        
-      </div>
-      
-
+          src="../assets/Interbuslogoweb.png" alt="" width="150px" height="120px" class="logo">
       <div class="col col-lg7 md-7 sm-7 justify-content-center d-flex">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div class="container-fluid">
@@ -36,48 +27,15 @@
                 <li class="nav-item mx-4">
                   <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/rodamiento">Nuevo Rodamiento</router-link>
                 </li>
-                <!-- <li class="nav-item mx-4">
-                  <router-link class="nav-link active fs-6" aria-current="page" href="#" to="/dashboarddespachador">Reservar</router-link>
-                </li> -->
-              
-                <!-- <b-sidebar id="example-collapse" title="Nosotros" shadow>
-                  <div class="px-1 py-3 my-4">
-                    <img
-                      src="../assets/logo2.jpeg"
-                      alt=""
-                      width="150px"
-                      height="100px"/>
-                    <div class="my-4">
-                      <h2>Mision</h2>
-                      Somos una página que quiere la mejor interacción,
-                      información y reservacion sobre las rutas intermunicipales
-                    </div>
-                    <div class="my-4">
-                      <h2>Vision</h2>
-                      Somos una página que busca mejorar la calidad de sus
-                      componentes y accesibilidad al usuario que interactua en
-                      ella
-                    </div>
-
-                    <div class="my-4">
-                      <h2>Contactos</h2>
-                      
-                      <div class="imagenes">
-                        <img src="@/assets/facebook.png" alt="logo Facebook" >
-                        <img src="@/assets/whatsapp.png" alt="logo Whatsapp" >
-                        <img src="@/assets/instagram.png" alt="logo Instagram" >                        
-                        </div>
-                      
-                    </div>
-                    
-                  </div>
-                </b-sidebar> -->
+             
                
               </ul>
             </div>
           </div>
         </nav>
       </div>
+
+       </div>
     </div>
   </div>
 </template>
@@ -89,6 +47,7 @@ export default {
 </script>
 
 <style scoped>
+
 .nosotros{
   text-decoration: none;
 }
@@ -103,6 +62,7 @@ export default {
   width: 50px;
   height: 50px;
 }
+
 
 </style>
 

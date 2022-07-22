@@ -1,13 +1,13 @@
 <template>
-    <div class="modal modal-tour position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalTour">
+      <div class="modal modal-tour position-static d-block home py-5" tabindex="-1" role="dialog" id="modalTour">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-6 shadow">
             <div class="modal-body p-5">
-              <h2 class="fw-bold mb-0">TICKET DE ENVIO</h2>
+              <h2 class="fw-bold mb-0">TICKET DE RESERVA</h2>
               <ul class="d-grid gap-4 my-5 list-unstyled">
               <div class="row d-flex">
               <div  class="col lg-5 sm-5 md-5 mx-2">
-                    <h5 class="mb-0">Número de envio</h5>
+                    <h5 class="mb-0">Número De Reserva</h5>
                     <input type="text" class="form-control" id="lastName">
                   </div>
                 <li class="d-flex">
@@ -30,16 +30,12 @@
                     <input type="text" class="form-control" id="lastName">
                   </div>
                 </li>
-                <li class="d-flex">
-                  <div  class="col lg-5 sm-5 md-5 mx-2">
-                    <h5 class="mb-0">Peso KG</h5>
-                    <input type="text" class="form-control" id="lastName">
-                  </div>
-                </li>
                 </div>
               </ul>
-              <button type="button" class="btn btn-lg btn-primary mt-5 w-50" data-bs-dismiss="modal">Descargar</button>
-              <button type="button" class="btn btn-lg btn-primary mt-5 w-50" data-bs-dismiss="modal">Imprimir</button>
+                <nav class="blog-pagination">
+                    <a class="btn  btn btn-light" href="#">Descarga</a>
+                    <a class="btn btn btn-light" href="#">Imprimir</a>
+                </nav>
             </div>
           </div>
         </div>
@@ -58,5 +54,10 @@ export default {
   font-family: serif ;
 }
 
-
+ .home{
+  background-size: cover;
+  height: 100%;
+ 
+  background-image: url(/src/assets/popayan.jpg);
+}
 </style>
