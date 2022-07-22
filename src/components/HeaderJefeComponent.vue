@@ -3,12 +3,13 @@
     <div class="row d-flex justify-content-evenly align-items-center">
       <div class="col col-lg-5 col-md-5 sm-5">
         <img 
-          src="../assets/logoInterbus.jpeg"
+          src="../assets/Interbuslogoweb.png"
           alt=""
           width="150px"
           height="120px"
           class="logo"
         >
+        
       </div>
       
 

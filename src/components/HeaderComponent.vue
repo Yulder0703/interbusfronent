@@ -5,8 +5,8 @@
         <img 
           src="../assets/Interbuslogoweb.png"
           alt=""
-          width="50px"
-          height="50px"
+          width="150px"
+          height="150px"
           class="logo"
         >
       </div>
