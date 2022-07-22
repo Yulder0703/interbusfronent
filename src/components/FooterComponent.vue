@@ -27,7 +27,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>copyright &copy;2022 <a href="#">interbus</a></p>
+        <p>copyright &copy;2022 <a href="#" class="a">interbus</a></p>
       </div>
     </footer>
   </div>
@@ -57,8 +57,8 @@ footer {
   background: #111;
   height: auto;
   width: 100vw;
-
-  padding-top: 40px;
+  
+  padding: 2px;
   color: #fff;
 }
 
@@ -72,17 +72,19 @@ footer {
 
 .footer-content h3 {
   font-size: 2.1rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 3rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
+  max-width: 600px;
+  margin: 15px ;
+  line-height: 20px;
+  font-size: 20px;
   color: #cacdd2;
+  font-family: serif;
 }
 
 .socials {
@@ -172,5 +174,9 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+.a{
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>
