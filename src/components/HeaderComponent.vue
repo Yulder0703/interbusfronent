@@ -1,6 +1,6 @@
 <template>
-  <div class="my-1 mx-3 px-1 py-2 bg-white rounded-bottom shadow"> 
-    <div class="row d-flex justify-content-evenly align-items-center">
+  <div class="my-1 mx-6 px-1 py-2 bg-white rounded-bottom shadow"> 
+    <div class="lola">
       <div class="col col-lg-4 col-md-4 sm-4">
         <img 
           src="../assets/Interbuslogoweb.png"
@@ -56,6 +56,20 @@ export default {
 </script>
 
 <style scoped>
+
+.lola{
+  margin: auto;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+ 
+}
+
+.row d-flex justify-content-evenly align-items-center{
+  width: 100%;
+}
 .nosotros{
   text-decoration: none;
 }
